@@ -27,7 +27,7 @@ const SingleQuiz = ({ quiz }) => {
     return (
         <div className=' lg:w-1/2 mx-auto shadow-2xl mt-12 mb-12 p-2'>
             <div className='flex justify-end mr-12'>
-                <span>< EyeIcon onClick={handleCoorrectAnswer} className="h-6 w-6 cursor-pointer hover:text-red-700 text-red-600 ml-2" /></span>
+                <span>< EyeIcon onClick={handleCoorrectAnswer} className="h-6 w-6 cursor-pointer hover:text-gray-500 text-gray-700 ml-2" /></span>
             </div>
             <p className='w-1/2 mx-auto text-1xl font-bold text-purple-500'>{question}</p>
             {options.map(option => <Option option={option} optionClick={optionClick}></Option>)}
