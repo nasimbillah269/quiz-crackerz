@@ -14,12 +14,13 @@ const Navber = () => {
                     open ? <XMarkIcon></XMarkIcon> : <Bars3Icon></Bars3Icon>
                 }
             </div>
-            <div className={`lg:flex sm:block font-bold text-white bg-slate-500  absolute lg:static duration-500  ${open ? 'top-6' : 'top-[-120px]'} `}>
+            <div className={`lg:flex sm:block font-bold text-white  bg-slate-500  absolute lg:static duration-500  ${open ? 'top-6 ' : 'top-[-120px]'} `}>
 
                 <Link className='block mr-8 hover:text-slate-400' to='/home'>Home</Link>
                 <Link className='block mr-8 hover:text-slate-400' to='/topics'>Topics</Link>
                 <Link className='block mr-8 hover:text-slate-400' to='/statistics'>Statistics</Link>
                 <Link className='block mr-8 hover:text-slate-400' to='/blog'>Blog</Link>
+
             </div>
         </nav>
     );
