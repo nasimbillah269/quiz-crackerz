@@ -8,7 +8,7 @@ const Topics = () => {
     console.log(topics);
     // console.log(quizs);
     return (
-        <div className='grid lg:grid-cols-4 gap-4 mt-12 container mx-auto'>
+        <div className='lg:grid lg:w-6/12 lg:grid-cols-2 gap-12 mt-12 container mx-auto'>
             {
                 topics.data.map(topic => <Topic key={topic.id} topic={topic}></Topic>)
             }
