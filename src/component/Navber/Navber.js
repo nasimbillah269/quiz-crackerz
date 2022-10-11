@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
 const Navber = () => {
     const [open, setOpen] = useState(false)
     return (
-        <nav className='flex justify-around items-center p-5 bg-slate-500'>
+        <nav className='flex justify-around items-center p-5 bg-slate-500 shadow-2xl'>
             <div>
                 <h3 className='text-2xl text-white font-bold'>Coding Quiz</h3>
             </div>
