@@ -2,6 +2,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blog from './component/Blog/Blog';
+import ErrorPage from './component/ErrorPage/ErrorPage';
 import Home from './component/Home/Home';
 import Topics from './component/Home/Topics/Topics';
 import QuizDetail from './component/QuizDetail/QuizDetail';
@@ -43,6 +44,11 @@ function App() {
           element: <Blog></Blog>
         }
       ]
+
+    },
+    {
+      path: '*',
+      element: <ErrorPage></ErrorPage>
     }
 
   ]);
