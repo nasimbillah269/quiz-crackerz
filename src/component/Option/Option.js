@@ -21,10 +21,10 @@ const Option = ({ option, optionClick }) => {
 
         // </div>
         <div  >
-            <div className=''>
-                <label onClick={() => optionClick(option)} className="label lg:flex justify-start items-center border p-4 w-1/2 mx-auto mt-4 mb-4 cursor-pointer">
+            <div >
+                <label onClick={() => optionClick(option)} className="label lg:flex justify-start items-center border p-4 w-1/2 mx-auto mt-4 mb-4 cursor-pointer hover:bg-slate-200">
                     <input type="radio" name="radio-6" className="radio checked:bg-blue-500" checked />
-                    <span className=" label-text ml-4">{option}</span>
+                    <span className=" label-text ml-4 ">{option}</span>
                 </label>
             </div>
         </div>
