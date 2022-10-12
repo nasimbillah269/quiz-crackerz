@@ -4,9 +4,6 @@ import { useLoaderData } from 'react-router-dom';
 
 const Topics = () => {
     const topics = useLoaderData();
-    // const topics = topic.data;
-    console.log(topics);
-    // console.log(quizs);
     return (
         <div className='lg:grid lg:w-6/12 lg:grid-cols-2 gap-12 mt-12 container mx-auto'>
             {

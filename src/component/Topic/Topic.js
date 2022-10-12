@@ -1,7 +1,6 @@
 import React from 'react';
 import { ArrowRightIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
-// import { useNavigate } from 'react-router-dom';
 const Topic = ({ topic }) => {
     const { id, name, logo, total } = topic;
     return (

@@ -9,7 +9,7 @@ const Navber = () => {
             <div>
                 <h3 className='text-2xl  font-bold text-white'>Coding Quiz</h3>
             </div>
-            <div onClick={() => setOpen(!open)} className="h-6 w-6 lg:hidden ">
+            <div onClick={() => setOpen(!open)} className="h-6 w-6 text-white lg:hidden ">
                 {
                     open ? <XMarkIcon></XMarkIcon> : <Bars3Icon></Bars3Icon>
                 }
